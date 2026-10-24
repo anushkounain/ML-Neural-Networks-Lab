@@ -20,7 +20,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 # Load only specific columns
-data = pd.read_csv(r"C:/Users/91636/Downloads/MLNNlab/bank-full.csv",sep=';', usecols=['age', 'job','marital','balance','duration','campaign','y'])
+data = pd.read_csv(r"DATASET FILE LOCATION",sep=';', usecols=['age', 'job','marital','balance','duration','campaign','y'])
 print("--- Data Sample ---")
 print(data.head)
 
