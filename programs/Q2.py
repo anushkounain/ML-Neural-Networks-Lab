@@ -13,7 +13,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
 # Load health dataset into panda's data frame
-df = pd.read_csv(r"C:/Users/91636/Downloads/MLNNlab/auto-mpg.data",header=None,sep='\\s+')
+df = pd.read_csv(r"DATASET FILE LOCATION",header=None,sep='\\s+')
 
 print('Dataset Header',df.head)
 print('Our dataframe Shape: ',df.shape)
