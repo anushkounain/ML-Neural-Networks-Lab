@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as py
 
 # Load health dataset into panda's data frame
-data = pd.read_csv(r"C:/Users/91636/Downloads/MLNNlab/diabetesPredictionDataset.csv")
+data = pd.read_csv(r"DATASET FILE LOCATION")
 
 # 1. Count missing values per column
 missing_counts_before = data.isnull().sum()
