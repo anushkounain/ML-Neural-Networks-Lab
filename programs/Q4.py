@@ -13,7 +13,7 @@ from sklearn.metrics import classification_report, accuracy_score
 #df = pd.read_csv(url)
 
 # Load health dataset into panda's data frame
-df = pd.read_csv(r"C:/Users/91636/Downloads/MLNNlab/glass.data",header=None,sep=',')
+df = pd.read_csv(r"DATATSET FILE LOCATION",header=None,sep=',')
 
 # Display basic info about the dataset
 print("Dataset Shape:", df.shape)
